@@ -1,0 +1,116 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(218, 218, 218);
+    border-bottom-width: 1px;
+    z-index: 1;
+}
+.left-section{
+    width: 180px;
+    display: flex;
+    align-items: center;
+}
+.youtube-logo{
+    height:25px;
+}
+.hamburger-menu{
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.middle-section{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 30px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    width: 0;
+}
+.search-bar{
+    padding: 0;
+    flex: 1;
+    height: 38px;
+    font-family: Arial;
+    width: 0;
+    font-size: 15px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-color: rgb(170, 164, 164);
+    border-style: solid;
+}
+.search-bar::placeholder{
+    font-family: Arial ;
+}
+.search-button{
+    width: 65px;
+    height:40px;
+    margin-left: -1px;
+    margin-right: 7px;
+    border-width: 1px;
+    border-style: solid;
+    background-color:  rgb(247, 247, 247) ;
+    border-color: rgb(170, 164, 164);
+}
+.search-bar-icon{
+    height: 20px;
+}
+.voice-search{
+    height: 36px;
+    width: 40px;
+    border: none;
+    border-radius: 27px;
+    background-color: white;
+}
+.voice-searching-icon{
+    height: 24px;
+}
+.right-section{
+    width: 200px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-right: 13px;
+    flex-shrink: 0;
+    position: relative;
+}
+.upload-icon{
+    height: 25px;
+}
+.youtube-app{
+    height: 25px;
+}
+.notifications-icon{
+    height: 25px;
+}
+.notify-no{
+    position: relative; 
+}
+.notifications-number{
+    position: absolute;
+    right: -4px;
+    top: 0px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    font-family: Roboto;
+    padding: 1px 5px;
+    border-radius:15px ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+.creator-logo{
+    height:30px;
+    border-radius: 15px;
+}

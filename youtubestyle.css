@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-top: 60px;
+    padding-top: 15px;
+    background-color: whitesmoke;
+    margin-left: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.con1{
+    position: relative;
+}
+.time{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: small;
+    font-family: Roboto;
+}
+.thumb-1{
+    width: 100%;
+    object-fit: cover;
+    /* margin: 0; */
+}
+.maingrid{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    column-gap: 10px;
+}
+.channel01{
+    border-radius: 20px;
+    width: 34px;
+    height:34px;
+}
+.title{
+    margin: 0;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.author{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: rgb(96, 96, 96);
+    margin-top: 12px;
+}
+.details{
+    margin-top: 0;
+    font-size: 13px;
+    color: rgb(96, 96, 96);
+}
